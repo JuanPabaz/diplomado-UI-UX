@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ol{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ol li{
+    margin: 0 15px;
+}
+
+nav ol li a{
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+.navdiv{
+    background-color: rgb(138, 138, 216);
+    align-items: baseline;
+    width: auto;
+    margin: auto;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.slider-container {
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    overflow-x: scroll;
+  }
+  
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+}
