@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -14,7 +23,9 @@ nav ol li{
 }
 
 nav ol li a{
-
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
 }
 
 img{
@@ -60,6 +71,14 @@ img{
     height: auto;
 }
 
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
 .slider-container {
     display: flex;
     width: 50%;
@@ -71,4 +90,51 @@ img{
     flex: 0 0 100%;
     width: 100%;
     object-fit: cover;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.divfooter{
+    background-color: rgb(138, 138, 216);
+    width: 100%;
+    margin: auto;
+}
+
+.footer-logo{
+    height: 70px;
+}
+
+.divfootercenter{
+    background-color: rgb(174, 174, 238);
+    display: flex;
+    justify-content: center;
+}
+
+.divfooterleft{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobremi{
+    width: 200px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.labelformulario{
+    margin: 10px;
+}
+
+.linkfooter{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
 }

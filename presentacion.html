@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
     <title>Presentacion</title>
 </head>
 <body style="background-color: aliceblue;">
@@ -15,6 +15,8 @@
                     <li><a href="#informacion">Informacion</a></li>
                     <li><a href="#tecnologias">Tecnologias</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#habilidades">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ol>
             </nav>
             <img src="" alt="">
@@ -30,13 +32,13 @@
                 <li>Lindo</li>
             </ul>   
         </div>
-        <img src="images\fotopersonal.jpg" alt="">
+        <img src="assets\images\fotopersonal.jpg" alt="">
         <ul>
             <li>Instagram: @juanpb400</li>
             <li>Tel: 3008298941</li>
         </ul>
         <h2>Estudiante de ingenieria informatica</h2>
-        <img src="images\escudo-poli.png" alt="centered image" style="height: 300px; width: 500px;" >  
+        <img src="assets\images\escudo-poli.png" alt="centered image" style="height: 300px; width: 500px;" >  
     </div>
 
     <div class="tecnologias" id="tecnologias" >
@@ -47,9 +49,9 @@
             <li>SQL</li>
         </ul>
         <div class="slider-container">
-            <img class="slider-item" src="images\java-logo-png.png" alt="java-logo-png">
-            <img class="slider-item" src="images\spring-boot-ok.png" alt="spring-boot-logo">
-            <img class="slider-item" src="images\sql-logo.png" alt="sql-logo">
+            <img class="slider-item" src="assets\images\java-logo-png.png" alt="java-logo-png">
+            <img class="slider-item" src="assets\images\spring-boot-ok.png" alt="spring-boot-logo">
+            <img class="slider-item" src="assets\images\sql-logo.png" alt="sql-logo">
         </div>
     </div>
 
@@ -61,20 +63,88 @@
             <li>Paciencia</li>
         </ul>
         <div class="slider-container">
-            <img class="slider-item" src="images\comunicacion.jpg" alt="Comunicacion-image">
-            <img class="slider-item" src="images\ingles.png" alt="ingles-image">
-            <img class="slider-item" src="images\paciencia.jpg" alt="paciencia-image">
+            <img class="slider-item" src="assets\images\comunicacion.jpg" alt="Comunicacion-image">
+            <img class="slider-item" src="assets\images\ingles.png" alt="ingles-image">
+            <img class="slider-item" src="assets\images\paciencia.jpg" alt="paciencia-image">
         </div>
+    </div>
 
-    <div class="proyectos">   
+    <div class="proyectos" id="proyectos">   
         <h3>Proyectos</h3>
         <ul>
             <li>Proyecto de bootcamp para SURA</li>
+            <P>Proyecto en Java con Spring boot para realizar web scraping de las noticias mas recientes
+                del dia y generar una tendencia sobre los datos recolectados.
+            </P>
+            <li>Proyecto de bootcamp para EAFIT</li>
+            <p>Rediseño de la pagina de filantropia EAFIT con React</p>
         </ul>
-    </div>  
+    </div>
+    
+    <div class="contacto" id="contacto">
+        <h3>Contacto</h3>
+        <form action="" class="formulario">
+            <label class="labelformulario" for="">Nombre:
+                <input type="text">
+            </label>
+            <label class="labelformulario" for="">Telefono:
+                <input type="text">
+            </label>
+            <label class="labelformulario" for="">Correo:
+                <input type="text">
+            </label>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <div class="divfooter">
+            <div class="divfootercenter">
+                <a href="https://www.instagram.com/juanpb400?igsh=MThoY2NmZ3h3a3J5OQ%3D%3D&utm_source=qr" target="_blank">
+                    <img class="footer-logo" src="assets\images\instagram.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/juan-pablo-giraldo-tamayo-8b9ba7257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                    <img class="footer-logo" src="assets\images\linkedin.png" alt="">
+                </a>
+                <a href="https://github.com/JuanPabaz" target="_blank">
+                    <img class="footer-logo" src="assets\images\github.png" alt="github logo">
+                </a>
+            </div>
+            <div class="divfooterleft">
+                <div>
+                    <h4><a class="linkfooter" href="#informacion">Informacion</a></h4>
+                    <ul>
+                        <li>Juan Pablo Giraldo Tamayo</li>
+                        <li>Tel: 3008298941</li>
+                        <li>jpgthf@gmail.com</li>
+                        <li>Medellin</li>
+                    </ul>
+                </div>
+                <div class="sobremi">
+                    <h4 class="linkfooter">Sobre mi</h4>
+                    <label for="">Desarrollador de software Junior enfocado en desarrollo Back End en Java con Spring boot</label>
+                </div>
+                <div>
+                    <h4><a class="linkfooter" href="#tecnologias">Tecnologias</a></h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring boot</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><a class="linkfooter" href="#habilidades">Habilidades</a></h4>
+                    <ul>
+                        <li>Comunicacion</li>
+                        <li>Ingles</li>
+                        <li>Paciencia</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><a class="linkfooter" href="#proyectos">Proyectos</a></h4>
+                </div>
 
-       
-        
-        
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
