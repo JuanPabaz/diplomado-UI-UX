@@ -19,6 +19,7 @@ nav {
 nav ol {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 nav ol li {
@@ -63,7 +64,7 @@ section {
 .contacto {
     background-color: rgb(174, 174, 238);
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
     margin: auto;
     display: flex;
@@ -72,11 +73,11 @@ section {
     align-items: center;
     border-radius: 10px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .slider-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     overflow-x: auto;
@@ -118,6 +119,7 @@ footer{
 .divfooterleft{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .sobremi{
@@ -143,3 +145,6 @@ footer{
     text-decoration: none;
 }
 
+@media(max-width:600px){
+
+}
