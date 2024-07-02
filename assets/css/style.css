@@ -1,100 +1,97 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(138, 138, 216);
+    padding: 10px 0;
 }
 
-nav ol{
+nav ol {
     display: flex;
     list-style-type: none;
 }
 
-nav ol li{
+nav ol li {
     margin: 0 15px;
 }
 
-nav ol li a{
+nav ol li a {
     color: #000000;
     font-weight: bold;
     font-size: large;
+    text-decoration: none;
 }
 
-img{
+img {
     border-radius: 10px;
 }
 
-.navdiv{
-    background-color: rgb(138, 138, 216);
-    align-items: baseline;
-    width: auto;
+.container {
+    max-width: 1200px;
     margin: auto;
+    padding: 20px;
 }
 
-.informacion{
+section {
+    margin: 20px 0;
+}
+
+.informacion,
+.tecnologias,
+.habilidades,
+.proyectos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
-.tecnologias{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.habilidades{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.proyectos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.contacto{
+.contacto {
     background-color: rgb(174, 174, 238);
-    width: 500px;
-    height: 250px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    
+    padding: 20px;
 }
 
 .slider-container {
     display: flex;
-    width: 50%;
-    height: 50vh;
-    overflow-x: scroll;
-  }
-  
-.slider-item{
-    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 10px;
     object-fit: cover;
+    scroll-snap-align: center;
 }
 
 footer{
@@ -143,4 +140,6 @@ footer{
     color: #000000;
     font-weight: bold;
     font-size: large;
+    text-decoration: none;
 }
+
