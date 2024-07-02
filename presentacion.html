@@ -10,102 +10,105 @@
 </head>
 <body style="background-color: aliceblue;">
     
-    <div class="navdiv">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>J<span>P</span></h2>
-                  </div>
-                <ul class="menu">
-                    <li><a class="active" href="#informacion">Informacion</a></li>
-                    <li><a href="#tecnologias">Tecnologias</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <div class="wrapper">
+        <div class="navdiv">
+            <header>
+                <nav class="navbar">
+                    <div class="brand">
+                        <h2>J<span>P</span></h2>
+                    </div>
+                    <ul class="menu">
+                        <li><a class="active" href="#informacion">Informacion</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
-    <div class="container">
-        <section class="informacion" id="informacion">
-            <h1>Juan Pablo Giraldo Tamayo</h1>
-            <div>
+        <main class="main">
+            <div class="informacion" id="informacion">
+                <h1>Juan Pablo Giraldo Tamayo</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia atque, amet deserunt facere quod corrupti. Voluptatum molestias minima explicabo harum nam illo eum dolorum, id suscipit quaerat possimus omnis fugiat.</p>
+                <div class="datos">
+                </div>
+                <a download href="#">
+                    <button class="download-cv">Descargar CV</button>
+                </a>
                 <ul>
+                    <li>Estudiante de ingenieria informatica</li>
                     <li>20 años</li>
                     <li>1.70cm</li>
                     <li>Lindo</li>
-                </ul>   
+                    <li>Instagram: @juanpb400</li>
+                    <li>Tel: 3008298941</li>
+                </ul>
             </div>
-            <img src="assets/images/fotopersonal.jpg" alt="">
-            <ul>
-                <li>Instagram: @juanpb400</li>
-                <li>Tel: 3008298941</li>
-            </ul>
-            <h2>Estudiante de ingenieria informatica</h2>
-            <img src="assets\images\logo-poli.png" alt="centered image" style=" max-width: 300px;">  
-        </section>
-
-        <section class="tecnologias" id="tecnologias">
-            <h3>Tecnologias</h3>
-            <ul>
-                <li>Java</li>
-                <li>Spring boot</li>
-                <li>SQL</li>
-            </ul>
-            <div class="slider-container">
-                <img class="slider-item" src="assets/images/java-logo-png.png" alt="java-logo-png">
-                <img class="slider-item" src="assets/images/spring-boot-ok.png" alt="spring-boot-logo">
-                <img class="slider-item" src="assets/images/sql-logo.png" alt="sql-logo">
-            </div>
-        </section>
-
-        <section class="habilidades" id="habilidades">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Comunicacion</li>
-                <li>Ingles Nativo</li>
-                <li>Paciencia</li>
-            </ul>
-            <div class="slider-container">
-                <img class="slider-item" src="assets/images/comunicacion.jpg" alt="Comunicacion-image">
-                <img class="slider-item" src="assets/images/ingles.png" alt="ingles-image">
-                <img class="slider-item" src="assets/images/paciencia.jpg" alt="paciencia-image">
-            </div>
-        </section>
-
-        <section class="proyectos" id="proyectos">   
-            <h3>Proyectos</h3>
-            <ul>
-                <li>
-                    Proyecto de bootcamp para SURA
-                    <p>Proyecto en Java con Spring Boot para realizar web scraping de las noticias más recientes del día y generar una tendencia sobre los datos recolectados. Soy pupilo de robin itsssssssssssssssssss</p>
-                </li>
-                <li>
-                    Proyecto de bootcamp para EAFIT
-                    <p>Rediseño de la página de filantropía EAFIT con React.</p>
-                </li>
-            </ul>
-        </section>
-        
-        <section class="contacto" id="contacto">
-            <h3>Contacto</h3>
-            <form action="" class="formulario">
-                <label class="labelformulario" for="">Nombre:
-                    <input type="text">
-                </label>
-                <label class="labelformulario" for="">Telefono:
-                    <input type="text">
-                </label>
-                <label class="labelformulario" for="">Correo:
-                    <input type="text">
-                </label>
-                <button>Enviar</button>
-            </form>
-        </section>
+            <img class="personal-img" src="assets/images/fotopersonal.jpg" alt="Juan Pablo Giraldo Tamayo picture">
+            
     </div>
-</body>
-    <footer>
+            <div class="tecnologias" id="tecnologias">
+                <h3>Tecnologias</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Spring boot</li>
+                    <li>SQL</li>
+                </ul>
+                <div class="slider-container">
+                    <img class="slider-item" src="assets/images/java-logo-png.png" alt="java-logo-png">
+                    <img class="slider-item" src="assets/images/spring-boot-ok.png" alt="spring-boot-logo">
+                    <img class="slider-item" src="assets/images/sql-logo.png" alt="sql-logo">
+                </div>
+            </div>
+
+            <div class="habilidades" id="habilidades">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Comunicacion</li>
+                    <li>Ingles Nativo</li>
+                    <li>Paciencia</li>
+                </ul>
+                <div class="slider-container">
+                    <img class="slider-item" src="assets/images/comunicacion.jpg" alt="Comunicacion-image">
+                    <img class="slider-item" src="assets/images/ingles.png" alt="ingles-image">
+                    <img class="slider-item" src="assets/images/paciencia.jpg" alt="paciencia-image">
+                </div>
+            </div>
+
+            <div class="proyectos" id="proyectos">   
+                <h3>Proyectos</h3>
+                <ul>
+                    <li>
+                        Proyecto de bootcamp para SURA
+                        <p>Proyecto en Java con Spring Boot para realizar web scraping de las noticias más recientes del día y generar una tendencia sobre los datos recolectados. Soy pupilo de robin itsssssssssssssssssss</p>
+                    </li>
+                    <li>
+                        Proyecto de bootcamp para EAFIT
+                        <p>Rediseño de la página de filantropía EAFIT con React.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contacto" id="contacto">
+                <h3>Contacto</h3>
+                <form action="" class="formulario">
+                    <label class="labelformulario" for="">Nombre:
+                        <input type="text">
+                    </label>
+                    <label class="labelformulario" for="">Telefono:
+                        <input type="text">
+                    </label>
+                    <label class="labelformulario" for="">Correo:
+                        <input type="text">
+                    </label>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </main>
+    
+    <footer class="footer">
         <div class="divfooter">
             <div class="divfootercenter">
                 <a href="https://www.instagram.com/juanpb400?igsh=MThoY2NmZ3h3a3J5OQ%3D%3D&utm_source=qr" target="_blank" aria-label="instagram">
