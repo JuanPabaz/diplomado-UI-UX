@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     color: #000000;
   }
@@ -128,18 +128,84 @@ section {
 }
 
 .contacto {
-    background-color: rgb(174, 174, 238);
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: auto;
+    margin: 0 auto;
+    background-color: rgb(138, 138, 216);
+    width: 40vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
-    padding: 20px;
-    flex-wrap: wrap;
+}
+
+.form-left-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.form-left-title h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.form-left-title hr{
+    border: none;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(174, 174, 238);
+    border-radius: 10px;
+}
+
+.form-left-title button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff;
+    gap: 10px;
+    border:none;
+    border-radius: 50px;
+    background-color:#000;
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.form-left-title button img{
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-inputs:hover{
+    outline: 2px solid rgb(174, 174, 238);
+}
+
+.form-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.form-right img{
+    height: 300px;
 }
 
 .slider-container {
@@ -162,6 +228,7 @@ section {
 
 footer{
     margin-top: 20px;
+    width: 100%;
 }
 
 .divfooter{
@@ -189,18 +256,6 @@ footer{
 
 .sobremi{
     width: 200px;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-.labelformulario{
-    margin: 10px;
 }
 
 .linkfooter{
