@@ -112,21 +112,15 @@ img {
 .habilidades{
     margin: 0 auto;
     width: 80vw;
-    height: 60vh;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     align-items: center;
-    gap: 2em;
 }
 
 .proyectos{
     margin: 0 auto;
     width: 80vw;
-    height: 60vh;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
     align-items: center;
-    gap: 2em;
 }
 
 section {
