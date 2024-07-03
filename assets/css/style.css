@@ -50,10 +50,6 @@ body {
     padding: 10px 10px; 
 }
 
-.menu .active{
-    color: aqua;
-}
-
 .menu a:hover{
     border-radius: 10px;
     background-color: aqua;
